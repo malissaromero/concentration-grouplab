@@ -13,4 +13,21 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require underscore
+//= require backbone
+//= require backbone_rails_sync
+//= require backbone_datalink
+//= require backbone/concentration_grouplab
 //= require_tree .
+App = {
+  Models: {},
+  Collections: {},
+  Views: {},
+  Routers: {}
+};
+
+$(document).ready(function(){
+  console.log("jq loaded!")
+  // App.Routers.gamesRouter = new App.Routers.Games();
+  // Backbone.history.start();
+});
